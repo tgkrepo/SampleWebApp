@@ -14,4 +14,20 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+        
+         <plugin>
+        <groupId>org.cloudfoundry</groupId>
+        <artifactId>cf-maven-plugin</artifactId>
+        <version>1.0.0.M1</version>
+    </plugin>
+                
+        <pluginRepositories>
+        
+	<pluginRepository>
+	    <id>repository.springframework.maven.milestone</id>
+	    <name>Spring Framework Maven Milestone Repository</name>
+	    <url>http://maven.springframework.org/milestone</url>
+	</pluginRepository>
+       
+</pluginRepositories>
 </project>
